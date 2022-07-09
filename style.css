@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+main{
+	width: 100%;
+	
+}
+
+/* header section */
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to right,  rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+	display: flex;
+	align-items: center;
+}
+
+.banner-text{
+	width: 550px;
+	margin-left: 10%;
+}
+.banner-text h2:first-child{
+	color: #FFCC00;
+}
+.banner-text h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+	margin: 15px 0;
+}
+.banner-text p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin: 30px 0;
+}
+
+
+/* button section */
+
+.donate-btn{
+	background-color: #FFCC00;
+	border: none;
+	padding: 12px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.donate-btn a{
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+	transition: .5s;
+}
+.donate-btn:hover a{ 
+	color: #fff;
+}
+
+
+/* blog section */
+
+.blog-section{
+	width: 100%;
+	display: inline-block;
+	
+}
+.blog{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.blog-article{
+	width: 460px;
+	padding: 20px;
+}
+.blog-article h3{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.blog-article p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+	margin: 15px 0;
+}
+.blog-img{
+	width: 460px;
+}
+.blog-img img{
+	width: 420px;
+	margin: 20px;
+
+}
+/* card section */
+.section-top{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.section-top div{
+	width: 600px;
+	text-align: center;
+	
+}
+.section-top h3,.article-title{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	margin: 10px 50px;
+}
+.section-top p,.article-des{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+	margin: 20px 30px;
+}
+.cards{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card{
+	width: 450px;
+	margin: 5px;
+	background-color: #fcf4d2;
+	padding: 30px;
+	display: flex;
+	border-radius: 10px;
+}
+.card-descript{
+	margin-left: 30px;
+}
+.card-descript h5{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #121212;
+}
+.card-descript p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+}
+
+/* image gallary */
+.image-area{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.image-area img{
+	width: 320px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+/* bottom card section */
+.bottom-card{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.bottom-card div{
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+.bottom-card p{
+	padding: 0 80px;
+}
+.donate-card{
+	width: 310px;
+	border: 1px solid rgb(217, 216, 216);
+	border-radius: 10px;
+	margin: 10px 25px;
+}
+.donate-card-img{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.card-des{
+	padding: 20px 15px;
+}
+.donate-card-title{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+.donate-card-des{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+	margin: 10px 0;
+	text-align: justify;
+}
+.donate-link{
+	text-decoration: none;
+	color: #FFCC00;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	border-bottom: 2px dotted #FFCC00;
+}
+
+/* footer section */
+footer{
+	background-color: #0B0D17;
+	text-align: center;
+	padding: 40px;
+	margin-top: 50px;
+}
+footer h3{
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	color: #FFCC00;
+}
+footer p{
+	font-family: 'Poppins', sans-serif;
+	color: rgb(209, 209, 209);
+	margin-top: 4px;
+}
